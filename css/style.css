@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(165, 165, 165);
+    color: white;
+}
+#container{
+    background-color: black;
+    width: 20%;
+    height: auto;
+}
+.screen{
+    text-align: end;
+}
+.scr{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.black{
+    padding: 27px;
+}
+.hrr{
+    margin-top: 30px;
+    width: 90%;
+    border-top: 1px solid #262626;
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+.sbtn{
+    width: 60px;
+    height: 60px;
+    background-color: #171717;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 10px;
+}
+.sbtn:hover{
+    background-color: #2a2a2a;
+}
+.clicked{
+    background-color: #383838;
+}
+.func{
+    text-align: center;
+}
+.red{
+    color: #e27374;
+}
+.green{
+    color: #427e04;
+}
+.white{
+    color: white;
+}
+.deletebtn{
+    color: grey;
+}
+.bgg{
+    background-color: #427e04;
+}
+.bgg:hover{
+    background-color: #54a305;
+}
+@media only screen and (min-width: 1426px) {
+    #container{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #container{
+        width: 80%;
+    }
+}
